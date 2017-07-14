@@ -1,0 +1,16 @@
+{
+  "name": "roomtone-light-syntax",
+  "theme": "syntax",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A light syntax theme for Atom.",
+  "keywords": [
+    "light",
+    "syntax"
+  ],
+  "repository": "https://github.com/samuelam/roomtone-light-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.40.0"
+  }
+}
