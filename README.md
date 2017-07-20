@@ -6,7 +6,7 @@ A light syntax theme. Based on [One Light Syntax](https://github.com/atom/one-li
 
 > The font used in the screenshot is [Hasklig](https://github.com/i-tu/Hasklig).
 
-There is also a matching [UI theme](https://github.com/samuelam/roomtone-light-ui).
+There is also a matching [UI theme](https://github.com/samuelam/roomtone-ui).
 
 ### Install
 
