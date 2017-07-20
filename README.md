@@ -2,7 +2,7 @@
 
 A light syntax theme. Based on [One Light Syntax](https://github.com/atom/one-light-syntax).
 
-![one-syntax-light](https://cloud.githubusercontent.com/assets/378023/7783214/c146b4e6-0174-11e5-8377-a57cf0274d5d.png)
+![Roomtone UI](https://user-images.githubusercontent.com/3765/28441691-f4e7a51c-6d60-11e7-81e4-09a6dfc1ae9c.png)
 
 > The font used in the screenshot is [Hasklig](https://github.com/i-tu/Hasklig).
 
@@ -10,6 +10,6 @@ There is also a matching [UI theme](https://github.com/samuelam/roomtone-ui).
 
 ### Install
 
-```
-git clone git@github.com:samuelam/roomtone-light-syntax.git ~/.atom/packages/roomtone-light-syntax
+```shell
+git clone https://github.com/samuelam/roomtone-light-syntax.git ~/.atom/packages/roomtone-light-syntax
 ```
