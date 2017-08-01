@@ -1,0 +1,50 @@
+// TODO: Something to be done.
+// FIXME: Should be corrected.
+// HACK: A workaround.
+// CHANGED: Good news
+// IDEA: A good one!
+// NOTE: for you!
+// REVIEW: for me!
+// XXX: Warn other programmers of problematic or misguiding code
+
+.syntax--source .syntax--comment {
+  .syntax--changed,
+  .syntax--fixme,
+  .syntax--hack,
+  .syntax--idea,
+  .syntax--note,
+  .syntax--review,
+  .syntax--todo,
+  .syntax--xxx {
+    background-color: lighten(@mono-3, 26%);
+    padding-left: .3em;
+    padding-right: .3em;
+    border-radius: 3px;
+    font-style: normal;
+  }
+
+  .syntax--todo {
+    color: @hue-4;
+  }
+  .syntax--fixme {
+    color: @hue-5;
+  }
+  .syntax--hack {
+    color: @hue-5-2;
+  }
+  .syntax--changed {
+    color: @hue-6-2;
+  }
+  .syntax--idea {
+    color: @hue-2;
+  }
+  .syntax--note {
+    color: @syntax-fg;
+  }
+  .syntax--review {
+    color: @hue-3;
+  }
+  .syntax--xxx {
+    color: @hue-1;
+  }
+}
