@@ -1,6 +1,8 @@
-// TODO: Something to be done.
-// FIXME: Should be corrected.
-// HACK: A workaround.
+// TODO: Something to be done
+// BUG: Something broken
+// NB: Something seriouslly broken (Nasty Bug)
+// FIXME: Should be corrected
+// HACK: A workaround
 // CHANGED: Good news
 // IDEA: A good one!
 // NOTE: for you!
@@ -8,6 +10,8 @@
 // XXX: Warn other programmers of problematic or misguiding code
 
 .syntax--source .syntax--comment {
+  .syntax--bug,
+  .syntax--nb,
   .syntax--changed,
   .syntax--fixme,
   .syntax--hack,
@@ -16,21 +20,26 @@
   .syntax--review,
   .syntax--todo,
   .syntax--xxx {
-    background-color: lighten(@mono-3, 27%);
+    background-color: lighten(@mono-3, 30%);
     padding-left: .3em;
     padding-right: .3em;
     border-radius: 3px;
-    font-style: normal;
   }
 
   .syntax--todo {
     color: @hue-4;
   }
+  .syntax--bug {
+    color: @hue-5;
+  }
+  .syntax--nb {
+    color: @hue-5-2;
+  }
   .syntax--fixme {
     color: @hue-5;
   }
   .syntax--hack {
-    color: @hue-5-2;
+    color: @hue-5;
   }
   .syntax--changed {
     color: @hue-6-2;
