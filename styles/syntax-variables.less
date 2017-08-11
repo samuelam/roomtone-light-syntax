@@ -27,11 +27,11 @@
 // Git colors - For git diff info. i.e. in the gutter
 @syntax-color-renamed:  hsl(208, 100%, 66%);
 @syntax-color-added:    hsl(132,  60%, 44%);
-@syntax-color-modified: hsl( 40,  90%, 50%);
+@syntax-color-modified: hsl(38, 100%, 50%);
 @syntax-color-removed:  hsl(  0, 100%, 54%);
 
 // For language entity colors
-@syntax-color-variable:   @hue-5;
+@syntax-color-variable:   @hue-5-2;
 @syntax-color-constant:   @hue-6;
 @syntax-color-property:   @syntax-fg;
 @syntax-color-value:      @syntax-fg;
@@ -44,13 +44,14 @@
 @syntax-color-import:     @hue-3;
 @syntax-color-snippet:    @hue-4;
 
-
 // Custom Syntax Variables -----------------------------------
 // Don't use in packages
 
-@syntax-cursor-line: fade(@syntax-fg, 5%); // needs to be semi-transparent to show search results
+@syntax-cursor-line: fade(@syntax-fg, 4%); // needs to be semi-transparent to show search results
 
-@syntax-deprecated-fg: darken(@syntax-color-modified, 50%);
+@syntax-bracket-matcher: fade(@syntax-cursor-color, 15%);
+
+@syntax-deprecated-fg: darken(@syntax-color-modified, 40%);
 @syntax-deprecated-bg: @syntax-color-modified;
 @syntax-illegal-fg:    white;
 @syntax-illegal-bg:    @syntax-color-removed;
