@@ -4,7 +4,7 @@ A light syntax theme. Based on [One Light Syntax](https://github.com/atom/one-li
 
 There is also a matching [UI theme](https://github.com/samuelam/roomtone-ui).
 
-![Roomtone UI](https://roomtone.s3.amazonaws.com/assets/roomtone-ui-screenshot.png)
+![Roomtone UI](https://roomtone.s3.amazonaws.com/assets/atom-roomtone-ui.png)
 
 > The font used in the screenshot is [Hasklig](https://github.com/i-tu/Hasklig).
 
