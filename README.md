@@ -1,6 +1,6 @@
 ## Roomtone Light Syntax
 
-A light syntax theme. Based on [One Light Syntax](https://github.com/atom/one-light-syntax).
+A light syntax theme. Based on [One Light Syntax](https://github.com/atom/atom/tree/master/packages/one-light-syntax).
 
 There is also a matching [UI theme](https://github.com/samuelam/roomtone-ui).
 
