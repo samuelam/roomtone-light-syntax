@@ -1,7 +1,7 @@
 {
   "name": "roomtone-light-syntax",
   "theme": "syntax",
-  "version": "1.0.0",
+  "version": "1.8.4",
   "private": true,
   "description": "A light syntax theme for Atom.",
   "keywords": [
